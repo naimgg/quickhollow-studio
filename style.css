@@ -14,4 +14,5 @@ a{color:var(--gold)}
 footer{margin-top:48px;color:var(--peach);font-size:14px}
 .brand{margin:0 0 4px}.brand img{display:block;width:min(340px,80%);margin:0 auto}
 .tag{text-align:center;margin-bottom:8px}
-.mark img{display:block;width:96px;margin:0 0 18px}
+.top{margin:-16px 0 28px}.top img{display:block;height:44px;width:auto}
+footer .foot{height:22px;width:auto;vertical-align:middle;margin-right:8px;opacity:.85}
