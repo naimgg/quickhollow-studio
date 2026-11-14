@@ -1,0 +1,14 @@
+:root{--black:#100a0b;--card:#1b1112;--line:#4a2d28;--peach:#f2b8a0;--cream:#f6e2c4;--red:#e8321e;--gold:#f7c23c}
+*{box-sizing:border-box}
+html,body{background:var(--black);color:var(--cream);margin:0}
+body{font:17px/1.6 Georgia,serif;padding:40px 16px 72px;max-width:720px;margin:0 auto}
+h1{font-size:34px;line-height:1.1;margin:0 0 6px;color:var(--cream)}
+h2{color:var(--gold);font-size:19px;margin:32px 0 10px}
+p{margin:0 0 12px}.muted{color:var(--peach)}
+a{color:var(--gold)}
+.game{display:flex;gap:16px;align-items:center;background:var(--card);border:2px solid var(--line);padding:14px;text-decoration:none;color:var(--cream)}
+.game img{width:84px;height:84px;border-radius:18px;flex:none}
+.game b{display:block;font-size:20px;color:var(--cream)}.game span{color:var(--peach);font-size:15px}
+.logo{width:100%;max-width:520px;display:block;margin:0 0 18px}
+.links{display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:8px}
+footer{margin-top:48px;color:var(--peach);font-size:14px}
